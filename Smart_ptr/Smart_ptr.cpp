@@ -24,9 +24,6 @@ int main()
 int main() {
 	
 	std::unique_ptr<int> ptr = std::make_unique<int>(42);
-
-	
-
 	
 	std::cout << "The value of the object is: " << *ptr << std::endl;
 
